@@ -1,0 +1,81 @@
+/* Styling umum */
+
+/* Menempatkan teks di tengah */
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a2d4eaee;
+    color: hsl(0, 0%, 20%);
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Container utama */
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Tabel */
+table {
+    width: 80%; /* Lebar tabel diatur menjadi 80% dari lebar container */
+    margin: 0 auto; /* Memusatkan tabel secara horizontal */
+    border-collapse: collapse;
+    margin-top: 1rem;
+    max-width: 1000px; /* Menambahkan batas maksimum lebar tabel agar tidak terlalu lebar */
+
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #191a1b;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Tombol */
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
